@@ -21,8 +21,8 @@ someData.get("hello").then(res => {
   var data1 = res.data.results[0].lexicalEntries;
   data1.forEach(element => {
     // console.log(element.text);
-    console.log(element.lexicalCategory);
-    console.log(element.entries[0].senses[0].short_definitions[0]);
+    console.log(`hello (${element.lexicalCategory})`);
+    console.log(`1 ${element.entries[0].senses[0].short_definitions[0]}`);
     // console.log(element.entries[0].senses[0].short_definitions[0]);
   });
   console.log("Provided by " + res.data.metadata.provider);
