@@ -1,9 +1,8 @@
 const main = () => {
-  const [, , ...args] = process.argv
+  const [, , ...args] = process.argv;
   if (args[0]) {
-    console.log("Ciao!")
   }
-  console.log(process.argv)
-}
+  console.log(process.argv);
+};
 
-module.exports = main
+module.exports = main;

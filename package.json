@@ -8,5 +8,9 @@
   },
   "scripts": {
     "bin-permission": "chmod +x bin/dict"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "request": "^2.88.0"
   }
 }
